@@ -1,0 +1,9 @@
+int power(int n)
+    {
+        int pro=1;
+        for(int i=0;i<n;i++)
+        {
+            pro=pro*10;
+        }
+        return pro;
+    }
